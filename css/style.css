@@ -1,0 +1,29 @@
+html,
+.title {
+    background-color: #35495e;
+    color: snow;
+}
+
+.app {
+    display: block;
+    text-align: center;
+}
+
+.buttons {
+    color: #35495e;
+    background-color: #41b883;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin: 0 0.5rem;
+}
+
+.count {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}
