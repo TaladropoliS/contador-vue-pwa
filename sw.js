@@ -6,6 +6,8 @@ const urlsToCache = [
     "./img/icono32.png",
     "./img/icono64.png",
     "./img/icono128.png",
+    "./img/icono192.png",
+    "./img/maskable.png",
     "./img/icono256.png",
     "./img/icono512.png",
     "./img/icono1024.png",
@@ -13,6 +15,7 @@ const urlsToCache = [
     "./js/mountApp.js",
     "https://unpkg.com/vue@next",
     "./css/style.css",
+    "./manifest.json",
     "https://necolas.github.io/normalize.css/8.0.1/normalize.css"
 ];
 
