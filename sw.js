@@ -1,6 +1,8 @@
 const CACHE_NAME = "v1_cache_contador_app_vue"
 const urlsToCache = [
     "./",
+    "./?umt_source=web_app_manifest",
+    "./img/favicon.png",
     "./img/icono32.png",
     "./img/icono64.png",
     "./img/icono128.png",
@@ -43,7 +45,7 @@ self.addEventListener("activate", e => {
                 )
             }
         ).then(
-            () => self.ClientRectList.claim()
+            () => self.clients.claim()
         )
     )
 })
